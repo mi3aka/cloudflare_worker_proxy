@@ -83,7 +83,7 @@ docker compose build
 docker compose up -d
 ```
 
-运行完成后将浏览器代理设置docker映射出来的端口,如`http://127.0.0.1:8080`
+运行完成后将浏览器代理设置为docker映射出来的端口,如`http://127.0.0.1:8080`
 
 ![](img/4.png)
 
@@ -95,13 +95,13 @@ docker compose up -d
 
 ## 使用演示
 
-1. curl和浏览器访问
+### curl和浏览器访问
 
 ![](img/6.png)
 
 ![](img/7.png)
 
-2. sqlmap
+### sqlmap
 
 使用[buuctf[第一章 web入门]SQL注入-1](https://buuoj.cn/challenges#[%E7%AC%AC%E4%B8%80%E7%AB%A0%20web%E5%85%A5%E9%97%A8]SQL%E6%B3%A8%E5%85%A5-1)进行演示
 
@@ -117,7 +117,7 @@ sqlmap -u "http://a44b1feb-d7d1-49f1-b871-9074dacfab03.node4.buuoj.cn:81/index.p
 
 ![](img/10.png)
 
-3. webshell
+### webshell
 
 使用[buuctf[GXYCTF2019]BabyUpload1](http://5a684d29-4820-46fd-992c-36df32ca007a.node4.buuoj.cn:81/)进行演示
 
@@ -167,7 +167,7 @@ if __name__ == '__main__':
 
 ![](img/16.png)
 
-威胁情报数据
+## 威胁情报数据
 
 ![](img/17.png)
 
