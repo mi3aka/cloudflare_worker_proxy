@@ -1,0 +1,8 @@
+{
+    "workers": {
+        "xxx.workers.dev": [
+            "xxx-xxx-123",
+            "xxx-xxx-456"
+        ]
+    }
+}
